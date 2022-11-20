@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "@google-cloud/speech": "^4.10.2",
+    "@google-cloud/storage": "^5.20.5",
+    "@sendgrid/mail": "^7.7.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3",
+    "prompt": "latest",
+    "recordrtc": "^5.6.2",
+    "similarity": "^1.2.1",
+    "string-similarity": "^4.0.4",
+    "ts-ebml": "^2.0.2"
+  },
+  "name": "ru-hack-backend",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "sql": "nodemon sql.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
