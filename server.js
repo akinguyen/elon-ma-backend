@@ -120,7 +120,7 @@ app.post("/share_friend", (req, res) => {
     subject: "Ed Sheeran sings for you! 🎵",
     text:
       "Hello, your friend shared you an Ed Sheeran Song: \n" +
-      "https://ru-hack-backend.herokuapp.com/music", //insert
+      "https://TROJAN-HACK-backend.herokuapp.com/music", //insert
   };
 
   sg.send(message)

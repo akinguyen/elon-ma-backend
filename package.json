@@ -20,7 +20,7 @@
     "string-similarity": "^4.0.4",
     "ts-ebml": "^2.0.2"
   },
-  "name": "ru-hack-backend",
+  "name": "TROJAN-HACK-backend",
   "version": "1.0.0",
   "main": "script.js",
   "scripts": {
